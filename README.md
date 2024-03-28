@@ -1,1 +1,3 @@
-# reactjs-refactoring
+# reactjs-virtual-table
+
+Виртуальная таблица на ReactJS
