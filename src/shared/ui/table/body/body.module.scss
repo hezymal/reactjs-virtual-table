@@ -1,0 +1,20 @@
+@use "@/shared/styles";
+@use "../constants";
+
+.Body {
+    height: 100%;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        width: constants.$scroll-size;
+        height: constants.$scroll-size;
+
+        &-track {
+            background-color: styles.$grey-d;
+        }
+
+        &-thumb {
+            background-color: styles.$grey-b;
+        }
+    }
+}

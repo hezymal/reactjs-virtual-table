@@ -1,0 +1,16 @@
+@use "@/shared/styles";
+
+.Cell {
+    border-left: styles.$border-2;
+    border-bottom: styles.$border-2;
+    flex-shrink: 0;
+    padding: styles.pt(0.5) styles.pt(1);
+
+    &:first-child {
+        border-left: none;
+    }
+
+    &:last-child {
+        border-right: styles.$border-2;
+    }
+}

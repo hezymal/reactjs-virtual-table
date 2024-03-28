@@ -1,0 +1,10 @@
+@use "@/shared/styles";
+
+.Table {
+    background-color: white;
+    border: styles.$border-2;
+
+    // TODO: попробовать убрать
+    display: flex;
+    flex-direction: column;
+}

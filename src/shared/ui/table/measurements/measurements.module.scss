@@ -1,0 +1,10 @@
+.Measurements {
+    position: relative;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+
+    &-Row {
+        position: absolute;
+    }
+}

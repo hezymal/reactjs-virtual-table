@@ -1,0 +1,12 @@
+@use "@/shared/styles";
+
+.HeadCell {
+    border-left: styles.$border-2;
+    flex-shrink: 0;
+    font-weight: 700;
+    padding: styles.pt(0.5) styles.pt(1);
+
+    &:first-child {
+        border-left: none;
+    }
+}

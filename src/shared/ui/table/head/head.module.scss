@@ -1,0 +1,9 @@
+@use "@/shared/styles";
+@use "../constants";
+
+.Head {
+    border-right: styles.$border-2;
+    border-bottom: styles.$border-2;
+    margin-right: constants.$scroll-size;
+    overflow: hidden;
+}

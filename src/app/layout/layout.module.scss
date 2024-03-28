@@ -1,0 +1,23 @@
+@use "@/shared/styles";
+
+.Layout {
+    display: grid;
+    grid-template-columns: 1fr styles.pt(100) 1fr;
+    grid-template-rows: styles.pt(6) auto;
+    height: 100vh;
+
+    &-Header {
+        align-items: center;
+        border-bottom: styles.$border-1;
+        display: flex;
+        grid-column: 2;
+        grid-row: 1;
+        padding: 0 styles.pt(2);
+    }
+
+    &-Body {
+        padding: styles.pt(2);
+        grid-column: 2;
+        grid-row: 2;
+    }
+}

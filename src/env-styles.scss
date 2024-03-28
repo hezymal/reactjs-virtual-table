@@ -1,0 +1,17 @@
+@use "@/shared/styles";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+
+    @include styles.inter-font();
+}
+
+body,
+#root {
+    height: 100vh;
+}
